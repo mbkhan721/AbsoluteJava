@@ -1,15 +1,12 @@
 package Chapter01;
 
 public class Variables {
-    // Left work at page 14 midPage
+    // Left work at page 28 top, pitfall
 
     public static void main(String[] args) {
-        double distance = 1.5;
-        int time = (int) (distance * 80);
 
-        double balance = 10;
-        double rate = 0.3;
-        double interest = balance * rate;
+        System.out.println("14 divide by 3 is " + 14 / 3);
+        System.out.println("with a remainder of " + 14 % 3);
     }
 }
 
