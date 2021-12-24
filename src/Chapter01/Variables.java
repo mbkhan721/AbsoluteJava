@@ -1,7 +1,6 @@
 package Chapter01;
 
 public class Variables {
-    // Left work at page 28 top, pitfall
 
     public static void main(String[] args) {
 
@@ -9,9 +8,6 @@ public class Variables {
         System.out.println("with a remainder of " + 14 % 3);
     }
 }
-
-
-
 
 
 
