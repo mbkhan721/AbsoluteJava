@@ -23,7 +23,29 @@ public class Ch01 {
 
         System.out.println("The total number of calories burned is " + result.format(totalCalories));
 
-        // Continue on page 54 question 2
+        System.out.println("\nQuestion 2");
+        int candyBar = 10;
+        int gumBall = 3;
+        int numberOfCoupons = 25;
+
+        System.out.println("Number of coupons: " + numberOfCoupons);
+        System.out.println("Number of candy bars: " + numberOfCoupons / candyBar); // 25/10 = 2
+        System.out.println("Number of gum balls: " + (numberOfCoupons % candyBar) / gumBall); // 5/3 = 1
+        System.out.println("Unused coupons: " + (numberOfCoupons % candyBar) % gumBall);
+
+        System.out.println("\nQuestion 3");
+        String first = "walt";
+        String last = "savitch";
+
+        first = first.substring(1, 2).toUpperCase() + first.substring(2) + first.substring(0, 1) + "ay";
+        last = last.substring(1, 2).toUpperCase() + last.substring(2) + last.substring(0, 1) + "ay";
+
+        String fullName = first + " " + last;
+        System.out.println(fullName);
+
+        System.out.println("\nQuestion 4");
+
+
 
 
     }
