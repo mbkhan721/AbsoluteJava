@@ -67,7 +67,7 @@ public class Ch01 {
         String end = sentence.substring(position + "hate".length());
         // System.out.println(end); // end is assigned _you.
         sentence = sentence.substring(0, position) + "love" + end;
-        System.out.println("Modified sentence: \n" + sentence);K
+        System.out.println("Modified sentence: \n" + sentence);
 
     }
 }
