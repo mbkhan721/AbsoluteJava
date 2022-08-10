@@ -45,8 +45,29 @@ public class Ch01 {
 
         System.out.println("\nQuestion 4");
 
+        double sweetnerNeededToKillInGrams = 32;
+        double weightOfMouseInGrams = 20;
+        int startingWeight = 230;
+        int desiredWeight = 175;
+        double dietSodaContains = 0.001;
+
+        sweetnerNeededToKillInGrams /= 453.593;
+        weightOfMouseInGrams /= 453.593;
+        double friend = (sweetnerNeededToKillInGrams / weightOfMouseInGrams) * desiredWeight;
+        double sodaPop = friend / dietSodaContains;
+        System.out.println("It would take " + sodaPop + " soda pop to kill");
 
 
+        System.out.println("\nQuestion 5");
+        String sentence = "I hate you.";
+        System.out.println("Original sentence:\n" + sentence);
+
+        int position = sentence.indexOf("hate");
+        // System.out.println(position); // position is assigned index 2
+        String end = sentence.substring(position + "hate".length());
+        // System.out.println(end); // end is assigned _you.
+        sentence = sentence.substring(0, position) + "love" + end;
+        System.out.println("Modified sentence: \n" + sentence);K
 
     }
 }
